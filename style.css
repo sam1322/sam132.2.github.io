@@ -1,0 +1,47 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: aliceblue;
+  background: url(header.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  height:100%;
+  background-position: center;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:50%;
+}
+h1{
+  text-align: center;
+}
+
+hr{
+  margin-top: 100px;
+  margin-bottom: 0;
+    width:200px;
+    border: 2px solid orange;
+}
+
+.hello{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 10%;
+}
+
+.btn-warning{
+  border-radius: 200px;
+}
+.btn-warning:hover{
+  border-width: 3px;
+  cursor: pointer;
+}
